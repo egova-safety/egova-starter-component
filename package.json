@@ -13,7 +13,7 @@
         "dist": "npm run dist:clean && npm run dist:build && npm run dist:types",
         "template:clear": "node build/template.clear.js",
         "template:build": "node build/template.build.js",
-        "template:publish": "npm publish vue-cli-plugin-egova-starter-template --access public",
+        "template:publish": "npm publish vue-cli-plugin-egova-starter-component --access public",
         "template": "npm run template:clear && npm run template:build && npm run template:publish",
         "lint": "vue-cli-service lint"
     },
