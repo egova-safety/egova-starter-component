@@ -1,0 +1,29 @@
+{
+    "name": "@egova/vue-cli-plugin-egova-starter-component",
+    "version": "0.0.1",
+    "description": "egova starter template plugin for vue-cli ^3.0.0~",
+    "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/egova-safety/egova-starter-component.git"
+    },
+    "keywords": [
+        "vue",
+        "cli",
+        "flagwind",
+        "iview",
+        "egova"
+    ],
+    "author": "chendebao <chendebao1985@163.com>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/egova-safety/egova-starter-component/issues"
+    },
+    "homepage": "https://github.com/egova-safety/egova-starter-component#readme",
+    "publishConfig": {
+        "access": "public"
+    },
+    "dependencies": {
+        "fs-extra": "^7.0.1"
+    }
+}

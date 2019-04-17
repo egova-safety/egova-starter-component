@@ -1,0 +1,38 @@
+{
+  "exclude": ["node_modules", "dist", "docs","vue-cli-plugin*"],
+  "compilerOptions": {
+    "declarationMap": false,
+    "sourceMap": true,
+    "strict": true,
+    "composite": true,
+    "stripInternal": true,
+    "pretty": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "strictNullChecks": false,
+    "suppressImplicitAnyIndexErrors": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "allowSyntheticDefaultImports": true,
+    "noEmitHelpers": false,
+    "esModuleInterop": true,
+    "baseUrl": ".",
+    "declaration": true,
+    "declarationDir": "./dist/types",
+    "jsx": "preserve",
+    "lib": ["esnext", "dom", "dom.iterable", "scripthost"],
+    "module": "esnext",
+    "moduleResolution": "node",
+    "paths": {
+      "*": ["types/*"],
+      "@/*": ["src/*"]
+    },
+    "target": "es5",
+    "types": ["node"],
+    "rootDir": "src",
+    "outDir": "dist"
+  },
+  "references": []
+}
